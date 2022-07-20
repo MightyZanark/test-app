@@ -1,5 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+
+// class testButton extends React.Component {
+//   render() {
+//     return (
+//       <div className='TestingFunc'>
+//         <button className='butt' onClick={console.log('Button Clicked!')}>Test Button</button>
+//       </div>
+//     );
+//   }
+// }
+
+// function testFunction() {
+//     return (
+//       <div className='TestingFunc'>
+//         <button className='butt' onClick={console.log('Button Clicked!')}>Test Button</button>
+//       </div>
+//     )
+// }
 
 function App() {
   return (
@@ -18,6 +37,7 @@ function App() {
           Learn React
         </a>
       </header>
+    <button onClick={() => {console.log("Button Clicked!");}}>Click</button>
     </div>
   );
 }
